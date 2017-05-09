@@ -1,1 +1,1 @@
-sudo docker run -d -p 0.0.0.0:80:80 -v /home/alex/LabGit/ECG_random_walk/experiments/record_test/results/P-images:/usr/share/nginx/html -v nginx_example.conf:/etc/nginx/nginx.conf:ro --name nginx nginx
+sudo docker run -d -p 0.0.0.0:80:80 -v /home/alex/LabGit/ECG_random_walk/experiments/record_test/results/P-images:/usr/share/nginx/html -v /home/alex/LabGit/nginx-config/ecg/nginx_qlive.conf:/etc/nginx/nginx.conf:ro --name nginx nginx
